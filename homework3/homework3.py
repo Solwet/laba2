@@ -1,6 +1,6 @@
 from datetime import datetime
 
-def age():
+def find_age():
     while True:
         birth_date = input("Введите дату рождения в формате день/месяц/год (например, 06/05/2004): ")
         
@@ -24,4 +24,4 @@ def age():
         except ValueError:
             print("Неверный формат даты или несуществующая дата. Попробуйте снова.")
 
-age()
+find_age()
